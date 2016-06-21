@@ -16,8 +16,10 @@
 
 # Pick up overlay for features that depend on non-open-source files
 PRODUCT_PACKAGES += \
+    a4wpservice \
     CNEService \
     com.qualcomm.location \
+    com.quicinc.wbcserviceapp \
     dpmserviceapp \
     fastdormancy \
     ims \
@@ -37,6 +39,7 @@ PRODUCT_PACKAGES += \
     libdsutils \
     libidl \
     libmdmdetect \
+    libril \
     libqcci_legacy \
     libqmi_cci \
     libqmi_client_qmux \
